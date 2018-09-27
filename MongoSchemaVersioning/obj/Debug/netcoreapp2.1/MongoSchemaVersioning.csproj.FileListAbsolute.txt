@@ -1,0 +1,11 @@
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Debug\netcoreapp2.1\MongoSchemaVersioning.deps.json
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Debug\netcoreapp2.1\MongoSchemaVersioning.runtimeconfig.json
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Debug\netcoreapp2.1\MongoSchemaVersioning.runtimeconfig.dev.json
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Debug\netcoreapp2.1\MongoSchemaVersioning.dll
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Debug\netcoreapp2.1\MongoSchemaVersioning.csproj.CoreCompileInputs.cache
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Debug\netcoreapp2.1\MongoSchemaVersioning.AssemblyInfoInputs.cache
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Debug\netcoreapp2.1\MongoSchemaVersioning.AssemblyInfo.cs
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Debug\netcoreapp2.1\MongoSchemaVersioning.pdb
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Debug\netcoreapp2.1\MongoSchemaVersioning.dll
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Debug\netcoreapp2.1\MongoSchemaVersioning.pdb
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Debug\netcoreapp2.1\MongoSchemaVersioning.csprojAssemblyReference.cache
