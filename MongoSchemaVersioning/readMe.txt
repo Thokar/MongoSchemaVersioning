@@ -20,3 +20,7 @@ https://dzone.com/articles/multiple-database-versions-with-pre-deploy-migration-
 
 // Feature Flags:
 https://featureflags.io/dotnet-feature-flags/
+
+
+Usefull
+https://stackoverflow.com/questions/11278031/mongodb-c-sharp-driver-database-getcollection-and-magic-strings

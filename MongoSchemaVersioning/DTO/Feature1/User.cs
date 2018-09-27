@@ -5,10 +5,8 @@ using System.Text;
 
 namespace MongoSchemaVersioning.DTO.Feature1
 {
-  public class User : IIdentified
+  public class User : Entity
   {
-    public ObjectId Id { get; set; }
-    public int SchemaVersion { get; set; }
     public string FirstName { get; set; }
     public string LastName{ get; set; }
     public string PhoneNumber { get; set; }
