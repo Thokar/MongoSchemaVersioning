@@ -31,11 +31,11 @@ namespace MongoSchemaVersioning.DAL
 
       var _collection = db.GetCollection<BsonDocument>("User");
       var filter = Builders<BsonDocument>.Filter.Eq("_id", id);
-      var result = _collection.Find(filter).Count();
+      var result = _collection.Find(filter).CountDocuments();
      
       var _collection1 = db.GetCollection<Entity>("User");
       var filter1 = Builders<Entity>.Filter.Eq("_id", id);
-      var result1 = _collection1.Find(filter1).Count();
+      var result1 = _collection1.Find(filter1).CountDocuments();
 
       //Console.WriteLine(entity.Id);
 
