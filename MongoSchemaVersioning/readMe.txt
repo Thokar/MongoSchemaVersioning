@@ -38,3 +38,6 @@ https://stackoverflow.com/questions/28050326/is-there-a-post-deserialization-hoo
 
 Another migrations
 https://github.com/darkiri/mongo-csharp-migrations
+
+dotnet publish
+https://docs.microsoft.com/en-us/dotnet/core/rid-catalog
