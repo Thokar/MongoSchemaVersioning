@@ -10,9 +10,29 @@ namespace MongoSchemaVersioning
     {
       //TestBooks();
 
-      TestUsers();
+      //TestUsers();
+
+      TestCustomers();
 
       Console.ReadLine();
+    }
+
+    private static void TestCustomers()
+    {
+      var client = new MongoDbCustomer();
+
+      var insert = false;
+
+      if (insert)
+      {
+        var customer1 = TestCustomer.CreateUserFeature1();
+        client.InsertCustomerFeature1(customer1);
+
+        var customer2 = TestCustomer.CreateUserFeature2();
+        client.InsertCustomerFeature2(customer2);
+      }
+      client.ReadCustomersFeature1();
+      client.ReadCustomersFeature2();
     }
 
     private static void TestUsers()
@@ -21,9 +41,7 @@ namespace MongoSchemaVersioning
 
       var user = TestUser.CreateUserFeature1();
 
-      client.InsertUser(user);
-
-      client.ReadUserObjectById("5bad02c8eb4f0d7850c09964");
+      client.ReadUserObjectById("5bae1dcb91a4d6eb68523307");
 
       client.ReadUsers();
 

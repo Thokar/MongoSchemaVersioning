@@ -19,16 +19,32 @@ namespace MongoSchemaVersioning.DAL
 
     public void ReadUserObjectById(string id)
     {
-      var raw = this.db.GetCollection<object>("User");
+      //var query_id = Query.EQ("_id", ObjectId.Parse("50ed4e7d5baffd13a44d0153"));
+   
+      var stringFilter = "{ _id: ObjectId('" + id + "') }";
+      var raw = this.db.GetCollection<object>("User").Find(stringFilter).ToList().ToArray()[0];
 
-      
+      var entity = this.db.GetCollection<Entity>("User").ToJson(); // (e => e.Id == ObjectId.Parse(id)).Count();
+
+      //var results = this.db.GetCollection<Entity>("User").Find(x => x.Id ==  new ObjectId(id)).ToList();
+      //var results = this.db.GetCollection<Entity>("User").Find(x => x.Id == ObjectId.Parse(id)).ToList();
+
+      var _collection = db.GetCollection<BsonDocument>("User");
+      var filter = Builders<BsonDocument>.Filter.Eq("_id", id);
+      var result = _collection.Find(filter).Count();
+     
+      var _collection1 = db.GetCollection<Entity>("User");
+      var filter1 = Builders<Entity>.Filter.Eq("_id", id);
+      var result1 = _collection1.Find(filter1).Count();
+
+      //Console.WriteLine(entity.Id);
 
     }
 
     public List<DTO.Feature1.User> ReadUsers()
     {
       var coll = this.db.GetCollection<DTO.Feature1.User>("User");
-      var userId = new ObjectId("5bacef35f70b136d84e3d376");
+      var userId = new ObjectId("bae1dcb91a4d6eb68523307");
 
       var users = coll
         .Find(b => b.Id == userId)
