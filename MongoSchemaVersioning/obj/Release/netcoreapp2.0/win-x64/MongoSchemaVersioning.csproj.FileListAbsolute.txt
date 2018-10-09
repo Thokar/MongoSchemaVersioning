@@ -1,0 +1,14 @@
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.deps.json
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.runtimeconfig.json
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.runtimeconfig.dev.json
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.dll
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.pdb
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.csproj.CoreCompileInputs.cache
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.AssemblyInfoInputs.cache
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.AssemblyInfo.cs
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.dll
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.pdb
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\hostpolicy.dll
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\hostfxr.dll
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\bin\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.exe
+D:\FilesToGo\Angular\FullStackApp\MongoSchemaVersioning\MongoSchemaVersioning\obj\Release\netcoreapp2.0\win-x64\MongoSchemaVersioning.csprojAssemblyReference.cache
